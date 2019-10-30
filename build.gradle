@@ -25,4 +25,6 @@ dependencies {
 compileKotlin2Js {
     kotlinOptions.moduleKind = "commonjs"
     kotlinOptions.outputFile = "dist/out.js"
+    kotlinOptions.sourceMap = true
+    kotlinOptions.moduleKind = 'commonjs'
 }
